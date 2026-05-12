@@ -21,7 +21,7 @@ import './styles/pages/course-list.css'
 
 // 路由配置
 const router = createRouter({
-  history: createWebHistory(),
+  history: createWebHistory('/OpenClawwww-test/'),
   routes: [
     { path: '/', redirect: '/resource' },
     { path: '/resource', component: ResourceManagement },
